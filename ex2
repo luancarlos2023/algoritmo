@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int b;
+    printf("informe o nivel de bateria do veiculo:");
+    scanf("%d",&b);
+    while (b <= 15) {
+        printf("informe o nivel de bateria do veiculo:");
+        scanf("%d",&b);
+    }
+    printf ("nivel de bateia segura");
+
+    return 0;
+}
