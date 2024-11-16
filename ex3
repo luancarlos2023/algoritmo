@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int m=10000, p, sm = 0;
+    printf ("informe os passos dados:");
+    scanf ("%d",&sm);
+    while (sm < m){
+       printf ("informe os passos dados:");
+        scanf ("%d",&p); 
+        sm += p;
+        printf ("passos restantes %d\n", m - sm);
+    }
+    printf ("meta atingida:");
+    return 0;
+}
