@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int d;
+    printf ("informe o valor do deposito:");
+    scanf ("%d",&d);
+    while (d < 500) {
+        printf ("valor menor que o minimo\ninforme o valor do deposito:");
+        scanf ("%d",&d);
+    }
+    printf ("valor aceito");
+    return 0;
+}
