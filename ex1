@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int t;
+    printf("informe a temperatura:");
+    scanf("%d",&t);
+    while (t <= 20 || t = 25) {
+        printf("informe a temperatura:");
+        scanf("%d",&t);
+    }
+
+    return 0;
+}
